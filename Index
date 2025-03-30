@@ -8,30 +8,30 @@
 
 </head>
 <body>
-    <img src="https://img.itch.zone/aW1hZ2UvMjc0Mjg3NS8xNjM2NjI1OS5wbmc=/original/8uRZts.png" 
-    alt="Azienda Piccola">
 
-    <div class="Div-Superiore">
+    <div class="MainDiv">
         
-        <h4 id="Ufficio">
+        <div class="ImagConteiner"> </div>
+
+        <h1 id="Ufficio">
             Ufficio
-        </h4>
+        </h1>
         
-        <h4>
-            Un Ufficio come tanti, si trova facimente pargheggio e si fanno dei party sul tetto.
-        </h4>
+        <h3 id="Spiegazione">
+            Un Ufficio come tanti, si trova facimente nella citta SixCity e si fanno dei party sul tetto.
+        </h3>
         
-        <p id="Unico-Id">
+        <p id="Autore">
             Autore:
-            <a href="https://www.instagram.com/641_game_enterprise/">
+            <a href="https://www.instagram.com/641_game_enterprise/" id="AutoreLink">
                 641 Game Enterprise
             </a>
         </p>
 
-        <h5>
+        <h6>
             Lavori Passabili
-        </h5>
-        <ul>
+        </h6>
+        <ul id="Lista">
             <li class="Hover">
                 <a href="https://641-enterprise.itch.io/god-after-641-minute">God After 6.41 Minute</a>
             </li >

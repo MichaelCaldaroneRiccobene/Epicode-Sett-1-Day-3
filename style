@@ -1,43 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
-h4{
-    margin: 0;
-    background: linear-gradient(to right, #cfffff, #008cff)
-}
-
-#Ufficio{
-    font-size: 3em;
-}
-
-body {
+body 
+{
     margin: 0;
     font-family: "Comic Neue", cursive;
-    font-weight: 400;
     font-style: normal;
-    background: linear-gradient(to right, #cfffff, #008cff)
+    background: linear-gradient(to right, #ffffff, #005aa3)
 }
 
-.Div-Superiore{
-    padding:  12px;
-    background: linear-gradient(to right, #cfffff, #008cff)
+.MainDiv
+{
+    padding:  20px;
 }
 
-#Unico-Id{
-    font-size: 1em;
-    background: linear-gradient(to right, #cfffff, #008cff)
+.ImagConteiner
+{
+    height: 500px;
+    background: url(https://img.itch.zone/aW1hZ2UvMjc0Mjg3NS8xNjM2NjI2NS5wbmc=/347x500/SlMQEw.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+
 }
 
-img {
-    width: 80%;
+#Ufficio
+{
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
 }
 
-.Hover:hover{
+#Spiegazione
+{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#AutoreLink
+{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h6
+{
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#Lista
+{
+    list-style: none;
+    padding: 0;
+}
+
+#Lista li
+{
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 22px;
+border-bottom: 1px solid #4845fd;
+}
+
+#Lista a
+{
+    text-decoration: none;
+    color: #00192e;
+}
+
+.Hover:hover
+{
    color: #6456e6;
 }
 
-footer {
+footer 
+{
     background: #6abcff;
     color: rgb(173, 219, 238);
     padding: 16px;
     text-align: center;
+}
+
+footer a
+{
+    color: #162330  ;
+    font-size: 1.2em;
+    text-decoration: none;
 }
